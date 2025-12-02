@@ -6,3 +6,4 @@ You can check all the challenges [here](https://adventofcode.com/2025).
 My solutions for each day:
 
 1. [--- Day 1: Secret Entrance ---](day_1)
+2. [--- Day 2: Gift Shop ---](day_2)
