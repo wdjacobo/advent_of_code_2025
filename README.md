@@ -7,3 +7,4 @@ My solutions for each day:
 
 1. [--- Day 1: Secret Entrance ---](day_1)
 2. [--- Day 2: Gift Shop ---](day_2)
+3. [--- Day 3: Lobby ---](day_3)
