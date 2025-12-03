@@ -6,17 +6,21 @@ $invalidIds = [];
 $idRanges = explode(",", file_get_contents("input.txt"));
 
 foreach ($idRanges as $range) {
+
     preg_match_all("/\d+/", $range, $matches);
     $firstId = $matches[0][0];
     $lastId = $matches[0][1];
 
-    for ($i = $firstId - 1; $i < $lastId + 1; $i++) {
-        $id = (string)$i;
-        $idLen = strlen($id);
+    for ($id = $firstId; $id < $lastId + 1; $id++) {
+
+        $idLen = strlen(strval($id));
+
         if ($idLen % 2 === 0) {
-            $halves = str_split($id, $idLen / 2);
-            if ($halves[0] === $halves[1]) {
-                $invalidIds[] = $i;
+
+            $idHalves = str_split(strval($id), $idLen / 2);
+
+            if ($idHalves[0] === $idHalves[1]) {
+                $invalidIds[] = $id;
             }
         }
     }
