@@ -9,3 +9,4 @@ My solutions for each day:
 2. [--- Day 2: Gift Shop ---](day_2)
 3. [--- Day 3: Lobby ---](day_3)
 4. [--- Day 4: Printing Department ---](day_4)
+5. [--- Day 5: Cafeteria ---](day_5)
